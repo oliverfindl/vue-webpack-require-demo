@@ -1,0 +1,30 @@
+{
+	"name": "vue-webpack-require-demo",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "npm run serve",
+		"setup": "git clone https://github.com/vuejs/art.git src/assets/vue-art",
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint",
+		"inspect": "vue inspect > webpack.config.js"
+	},
+	"dependencies": {
+		"core-js": "^2.6.5",
+		"vue": "^2.6.10"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "^3.11.0",
+		"@vue/cli-plugin-eslint": "^3.11.0",
+		"@vue/cli-service": "^3.11.0",
+		"babel-eslint": "^10.0.1",
+		"eslint": "^6.2.2",
+		"eslint-plugin-vue": "^5.0.0",
+		"html-loader": "^0.5.5",
+		"node-sass": "^4.9.0",
+		"sass-loader": "^7.1.0",
+		"vue-template-compiler": "^2.6.10",
+		"webpack-bundle-analyzer": "^3.4.1"
+	}
+}
